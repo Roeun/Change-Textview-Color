@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Change Color App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">My Change Color App</string>
+    <string name="btnPink">Pink</string>
+    <string name="btnRed">Red</string>
+    <string name="btnBlue">Blue</string>
+    <string name="rdoRed">Red</string>
+    <string name="rdoBlue">Blue</string>
+    <string name="rdoPink">Pink</string>
+
+</resources>

@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btnRed"
+        android:layout_height="wrap_content" 
+		android:layout_width="match_parent" 
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/btnRed" />
+
+    <Button
+        android:id="@+id/btnPink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnRed"
+        android:layout_below="@+id/btnRed"
+        android:text="@string/btnPink" />
+
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnPink"
+        android:layout_below="@+id/btnPink"
+        android:text="@string/btnBlue" />
+	
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/radioGroup1"
+        android:background="#000000" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnBlue"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rdoRed"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/rdoRed" />
+
+        <RadioButton
+            android:id="@+id/rdoPink"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:text="@string/rdoPink" />
+
+        <RadioButton
+            android:id="@+id/rdoBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/rdoBlue" />
+
+    </RadioGroup>
+
+</RelativeLayout>
